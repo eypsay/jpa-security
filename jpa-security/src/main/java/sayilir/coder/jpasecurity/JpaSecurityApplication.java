@@ -36,6 +36,12 @@ public class JpaSecurityApplication {
                     "Welcome to  my posts",
                     "eyyp"
             ));
+            posts.save(new Post(
+                    "Intro GraphQl",
+                    "intro-graphql",
+                    "Welcome to  Intro GraphQl",
+                    "eyyp"
+            ));
 
         };
     }

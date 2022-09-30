@@ -24,7 +24,7 @@ public class PostController {
     }
 
     @GetMapping("/{id}")
-    public Post findByID(@PathVariable("id") Post post) {
+    public Post findById(@PathVariable("id") Post post) {
         return post;
     }
 }
